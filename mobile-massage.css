@@ -1,0 +1,291 @@
+    /* -----Header----- */
+    
+    .header-image {
+        background-image: url('image/masseur-header.png');
+        background-position: center center;
+        background-size: cover;
+        height: 200px;
+    }
+    .logo {
+        margin-top: 25px;
+    }
+    p.header-headline {
+        font-family: 'Droid Serif', serif;
+        color: #8a6d51;
+        font-size: 17px;
+        font-style: italic;
+        margin-top: 115px;
+        padding-left: 25vw;
+    }
+    /* -----Navigation----- */
+    
+    .navbar-default {
+        border: none;
+        margin-bottom: 0;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-family: 'Droid Serif', serif;
+        color: #2f160d;
+        font-size: 13.5px;
+    }
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+    ul.navbar-nav {
+        border-bottom: 5px solid #f0eede;
+        height: 42px;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #9ac333;
+    }
+    .navbar-default .navbar-nav>li>a:active {
+        color: #9ac333;
+    }
+    a#active {
+        color: #9ac333;
+    }
+    /* -----Main----- */
+    
+    h1 {
+        font-family: 'Droid Serif', serif;
+        font-size: 17px;
+        font-weight: bold;
+        color: #5d4239;
+        margin-top: 20px;
+    }
+    h2 {
+        font-family: 'Droid Serif', serif;
+        font-size: 16px;
+        color: #5d4239;
+        margin-bottom: 15px;
+    }
+    hr {
+        border: 0;
+        height: 1px;
+        background: #e1e6b4;
+        margin-top: -8px;
+        width: 92%;
+        margin-left: -0.1%;
+    }
+    h1 span {
+        font-size: 37px;
+        color: #b4c144;
+    }
+    @font-face {
+        font-family: Verdana;
+        src: url('Verdana.ttf');
+    }
+    p.intro {
+        font-family: Verdana;
+        width: 614px;
+        color: #4f4f4f;
+    }
+    ul {
+        padding-left: 0;
+        margin-bottom: 5px;
+    }
+    .benefits {
+        font-family: Verdana;
+        color: #4f4f4f;
+        font-size: 13px;
+        line-height: 17px;
+        margin-bottom: 5px;
+        list-style-type: none;
+        background-image: url(image/bullet.png);
+        background-position: 4px center;
+        background-repeat: no-repeat;
+        padding-left: 17px;
+    }
+    /* -----Main right side----- */
+    
+    .well {
+        font-family: 'Droid Serif', serif;
+        color: #5d4239;
+        font-size: 12px;
+        width: 218px;
+    }
+    .photo {
+        width: 218px;
+        height: auto;
+        border: 1px solid #f1ece7;
+        margin-top: -8px;
+    }
+    #message {
+        margin-top: 11px;
+        font-size: 11px;
+        color: #8a6d51;
+    }
+    #button {
+        font-size: 11.5px;
+        margin-top: -7px;
+    }
+    .btn-default {
+        background-color: #b4c144;
+        color: white;
+        font-family: Verdana;
+        border: none;
+    }
+    .btn-default:hover {
+        background-color: #219376;
+        color: white;
+    }
+    i.fa {
+        font-size: 37.5px;
+        color: #ddd7c4;
+        margin-right: 3px;
+        margin-top: -8px;
+    }
+    /* -----Tree----- */
+    
+    .tree {
+        margin-top: 22px;
+    }
+    #tree {
+        margin-bottom: -23px;
+    }
+    /* -----Footer----- */
+    
+    .footer-image {
+        background-image: url('image/footer.png');
+        height: 165px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .footer p {
+        text-align: center;
+        font-family: Verdana;
+        color: #8a6d51;
+        font-size: 12px;
+        margin-top: 45px;
+    }
+    #footer-bold {
+        font-size: 11px;
+        font-weight: 700;
+        color: #5d4239;
+    }
+    #footer-dizajn {
+        font-size: 11px;
+    }
+    /*------------------------------------------*/
+    /*------------------------------------------*/
+    /* ----- MEDIA QUERIES ----- */
+    /* ---- medium desktops ---- */
+    
+    @media screen and (min-width:992px) and (max-width:1199px) {
+        .header-headline {
+            padding-left: 20rem;
+        }
+        p.intro {
+            width: 57rem;
+        }
+        .well,
+        .photo {
+            width: 204px;
+        }
+    }
+    /* ---- small devices ---- */
+    
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        .navbar-default .navbar-nav>li>a {
+            font-size: 99.4%;
+        }
+        .header-headline {
+            padding-left: 19rem;
+        }
+        h1 {
+            font-size: 97.71%;
+        }
+        p.intro {
+            width: 96%;
+            font-size: 96%;
+            text-align: justify;
+        }
+        .main img {
+            height: auto;
+            width: 100%;
+        }
+        .well,
+        .photo {
+            width: 204px;
+        }
+        h2 {
+            font-size: 97.71%;
+        }
+        li {
+            font-size: 96%;
+        }
+    }
+    @media screen and (min-width:480px) and (max-width:767px) {
+        .header-headline {
+            padding-left: 16rem;
+        }
+        ul.navbar-nav {
+            border-bottom: 0;
+        }
+        h1 {
+            font-size: 98%;
+        }
+        h2 {
+            font-size: 97%;
+        }
+        p.intro {
+            width: 96%;
+            font-size: 96%;
+        }
+        .main img {
+            height: auto;
+            width: 100%;
+        }
+        .well,
+        .photo {
+            width: 204px;
+        }
+        .photo {}
+        h2 {
+            font-size: 97.71%;
+        }
+        li {
+            font-size: 96%;
+        }
+    }
+    @media screen and (min-width:320px) and (max-width:479px) {
+        .logo {
+            margin-left: -3rem;
+            height: 70px;
+        }
+        .header-headline {
+            padding-left: 2rem;
+        }
+        h1 {
+            font-size: 98%;
+        }
+        h2 {
+            font-size: 97%;
+        }
+        p.intro {
+            width: 96%;
+            font-size: 96%;
+        }
+        .main img {
+            height: auto;
+            width: 100%;
+        }
+        .well,
+        .photo {
+            width: 220px;
+            margin-left: 2.9rem;
+        }
+        .social {
+            padding-left: 4.3rem;
+            margin-bottom: 18px;
+        }
+        .fa {
+            margin-left: 6px;
+        }
+    }

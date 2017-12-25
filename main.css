@@ -1,0 +1,393 @@
+    /* -----Header----- */
+    
+    .header-image {
+        background-image: url('image/masseur-header.png');
+        background-position: center center;
+        background-size: cover;
+        height: 200px;
+    }
+    .logo {
+        margin-top: 25px;
+    }
+    p.header-headline {
+        font-family: 'Droid Serif', serif;
+        color: #8a6d51;
+        font-size: 17px;
+        font-style: italic;
+        margin-top: 115px;
+        padding-left: 27%;
+    }
+    /* -----Navigation----- */
+    
+    .navbar-default {
+        border: none;
+        margin-bottom: 0;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-family: 'Droid Serif', serif;
+        color: #2f160d;
+        font-size: 13.5px;
+    }
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+    ul.navbar-nav {
+        border-bottom: 5px solid #f0eede;
+        height: 42px;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #9ac333;
+    }
+    .navbar-default .navbar-nav>li>a:active {
+        color: #9ac333;
+    }
+    a#active {
+        color: #9ac333;
+    }
+    .navbar-default .navbar-toggle:hover {
+        background-color: #9ac333;
+    }
+    .navbar-default .navbar-toggle:hover .icon-bar {
+        background-color: #5d4239;
+    }
+    /* -----Main----- */
+    
+    h1,
+    h2 {
+        font-family: 'Droid Serif', serif;
+        font-size: 17px;
+        font-weight: bold;
+        color: #5d4239;
+    }
+    h1 span {
+        font-size: 37px;
+        color: #b4c144;
+    }
+    @font-face {
+        font-family: Verdana;
+        src: url('Verdana.ttf');
+    }
+    p.intro {
+        font-family: Verdana;
+        width: 614px;
+        color: #4f4f4f;
+    }
+    /* -----Main right side----- */
+    
+    .well {
+        font-family: 'Droid Serif', serif;
+        color: #5d4239;
+        font-size: 12px;
+        width: 218px;
+    }
+    .photo {
+        width: 218px;
+        height: auto;
+        border: 1px solid #f1ece7;
+        margin-top: -8px;
+    }
+    #message {
+        margin-top: 11px;
+        font-size: 11px;
+        color: #8a6d51;
+    }
+    #button {
+        font-size: 11.5px;
+        margin-top: -7px;
+    }
+    .btn-default {
+        background-color: #b4c144;
+        color: white;
+        font-family: Verdana;
+        border: none;
+    }
+    .btn-default:hover {
+        background-color: #219376;
+        color: white;
+    }
+    i.fa {
+        font-size: 37.5px;
+        color: #ddd7c4;
+        margin-right: 3px;
+        margin-top: -8px;
+    }
+    .button-link {
+        color: white;
+        text-decoration: none;
+    }
+    a.button-link:hover {
+        text-decoration: none;
+        color: white;
+    }
+    /* -----Main second part----- */
+    
+    h2 span {
+        font-size: 36px;
+        color: #b4c144;
+    }
+    .service-list ul {
+        padding-left: 2rem;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: auto;
+    }
+    .service-list li {
+        padding-bottom: 2px;
+        font-size: 12.6px;
+        font-family: Verdana;
+        color: 4f4f4f;
+    }
+    .service-list li::before {
+        content: "• ";
+        color: #d0c5bb;
+    }
+    /* -----Main third part table----- */
+    
+    .panel {
+        border: 0;
+    }
+    .panel .panel-heading {
+        border: 0;
+        height: 33px;
+        width: 205px;
+        background-color: #f4f2e8;
+        margin-bottom: 9px;
+    }
+    .panel-heading h4 {
+        font-family: 'Droid Serif', serif;
+        font-size: 15px;
+        margin-top: -1px;
+        color: #5d4239;
+    }
+    .panel p {
+        color: #8a6d51;
+        font-family: Verdana;
+        font-size: 13px;
+        text-align: left;
+    }
+    .panel-body {
+        margin: 0;
+        padding-left: 0;
+    }
+    .panel-body p {
+        font-family: Verdana;
+        font-size: 12px;
+        text-align: left;
+        color: #4f4f4f;
+        margin-top: -15px;
+    }
+    .panel-footer {
+        border: 0;
+        background-color: transparent;
+        padding-left: 0;
+        margin-top: -10px;
+    }
+    .panel-footer p {
+        color: #219376;
+        font-family: Verdana;
+        font-size: 11px;
+    }
+    #panel-2 p {
+        margin-top: -17px;
+    }
+    #panel-3 p {
+        margin-top: -17px;
+    }
+    .panel-link {
+        color: #219376;
+    }
+    a.panel-link:visited {
+        text-decoration: none;
+    }
+    a.panel-link:hover {
+        text-decoration: none;
+        background-color: #b4c144;
+        color: white;
+    }
+    a.panel-link:active {
+        text-decoration: none;
+        background-color: #b4c144;
+        color: white;
+    }
+    /* -----Tree----- */
+    
+    .tree {
+        margin-top: 22px;
+    }
+    #tree {
+        margin-bottom: -23px;
+    }
+    /* -----Footer----- */
+    
+    .footer-image {
+        background-image: url('image/footer.png');
+        height: 165px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .footer p {
+        text-align: center;
+        font-family: Verdana;
+        color: #8a6d51;
+        font-size: 12px;
+        margin-top: 45px;
+    }
+    #footer-bold {
+        font-size: 11px;
+        font-weight: 700;
+        color: #5d4239;
+    }
+    #footer-dizajn {
+        font-size: 11px;
+    }
+    /*------------------------------------------*/
+    /*------------------------------------------*/
+    /* ----- MEDIA QUERIES ----- */
+    /* ---- medium desktops ---- */
+    
+    @media screen and (min-width:992px) and (max-width:1199px) {
+        p.header-headline {
+            padding-left: 23%;
+        }
+        p.intro {
+            width: 57rem;
+        }
+        .well,
+        .photo {
+            width: 204px;
+        }
+        .panel .panel-heading {
+            width: 190px;
+        }
+        .panel-body {
+            width: 20.6rem;
+        }
+        #panel-3 p {
+            margin-top: 0px;
+        }
+    }
+    /* ---- small devices ---- */
+    
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        .navbar-default .navbar-nav>li>a {
+            font-size: 99.4%;
+        }
+        p.header-headline {
+            padding-left: 26%;
+        }
+        h1 {
+            font-size: 97.71%;
+        }
+        p.intro {
+            width: 96%;
+            font-size: 96%;
+            text-align: justify;
+        }
+        .main img {
+            height: auto;
+            width: 100%;
+        }
+        .well,
+        .photo {
+            width: 204px;
+        }
+        h2 {
+            font-size: 97.71%;
+        }
+        li {
+            font-size: 96%;
+        }
+        .panel-heading h4 {
+            text-align: left;
+            margin-left: 0;
+            padding-left: 0;
+        }
+    }
+    @media screen and (min-width:480px) and (max-width:767px) {
+        p.header-headline {
+            padding-left: 30%;
+        }
+        ul.navbar-nav {
+            border-bottom: 0;
+        }
+        h1 {
+            font-size: 98%;
+        }
+        p.intro {
+            width: 96%;
+            font-size: 96%;
+        }
+        .main img {
+            height: auto;
+            width: 100%;
+        }
+        .well,
+        .photo {
+            width: 204px;
+        }
+        h2 {
+            font-size: 97.71%;
+        }
+        li {
+            font-size: 96%;
+        }
+        .panel-heading {
+            margin: auto;
+        }
+        .panel-heading+p,
+        .panel-footer p {
+            text-align: center;
+        }
+        .panel-heading h4 {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .panel-body p {
+            text-align: justify;
+        }
+    }
+    @media screen and (min-width:320px) and (max-width:479px) {
+        .logo {
+            margin-left: -3rem;
+            height: 70px;
+        }
+        p.header-headline {
+            padding-left: 7%;
+        }
+        ul.navbar-nav {
+            border-bottom: 0;
+        }
+        h1 {
+            font-size: 98%;
+        }
+        p.intro {
+            width: 96%;
+            font-size: 96%;
+        }
+        .main img {
+            height: auto;
+            width: 100%;
+        }
+        .panel {
+            margin-left: 1rem;
+        }
+        .well,
+        .photo {
+            width: 220px;
+            margin-left: 2.9rem;
+        }
+        .social {
+            padding-left: 4.3rem;
+            margin-bottom: 18px;
+        }
+        .fa {
+            margin-left: 6px;
+        }
+    }

@@ -1,0 +1,420 @@
+/* -----Header----- */
+
+.header-image {
+    background-image: url('image/masseur-header.png');
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+.logo {
+    margin-top: 25px;
+}
+p.header-headline {
+    font-family: 'Droid Serif', serif;
+    color: #8a6d51;
+    font-size: 17px;
+    font-style: italic;
+    margin-top: 115px;
+    padding-left: 25vw;
+}
+
+/* -----Navigation----- */
+
+.navbar-default {
+    border: none;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Droid Serif', serif;
+    color: #2f160d;
+    font-size: 13.5px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+ul.navbar-nav {
+    border-bottom: 5px solid #f0eede;
+    height: 42px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #9ac333;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #9ac333;
+}
+a#active {
+    color: #9ac333;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #9ac333;
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #5d4239;
+}
+
+/* -----Main----- */
+
+h1,
+h2 {
+    font-family: 'Droid Serif', serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #5d4239;
+}
+h1 span {
+    font-size: 37px;
+    color: #b4c144;
+}
+@font-face {
+    font-family: Verdana;
+    src: url('Verdana.ttf');
+}
+img.media-object {
+    height: 270px;
+}
+.media-body p {
+    font-family: Verdana;
+    color: #4f4f4f;
+    text-align: justify;
+    width: 91%;
+}
+p#intro {
+    font-family: Verdana;
+    color: #4f4f4f;
+    text-align: justify;
+    width: 94%;
+}
+
+/* ------ signature ------ */
+
+#signature {
+    font-size: 13px;
+    font-family: Verdana;
+    color: #4f4f4f;
+}
+.massage-photo {
+    padding-right: 0;
+    padding-left: 14%;
+    margin-top: -40px;
+}
+#photo-mass {
+    height: 260px;
+    width: auto;
+}
+
+/* ----- reference list ---- */
+
+h3 {
+    font-family: 'Droid Serif', serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #5d4239;
+}
+td:first-child {
+    width: 156px;
+    color: #b4c144;
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+}
+td:last-child {
+    color: #4f4f4f;
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+}
+.reference {
+    padding-left: 0;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border-top: 0;
+    padding-left: 0;
+}
+
+/* -----Main right side----- */
+
+.well {
+    font-family: 'Droid Serif', serif;
+    color: #5d4239;
+    font-size: 12px;
+    width: 218px;
+}
+.photo {
+    width: 218px;
+    height: auto;
+    border: 1px solid #f1ece7;
+    margin-top: -8px;
+}
+#message {
+    margin-top: 11px;
+    font-size: 11px;
+    color: #8a6d51;
+}
+#button {
+    font-size: 11.5px;
+    margin-top: -7px;
+}
+.btn-default {
+    background-color: #b4c144;
+    color: white;
+    font-family: Verdana;
+    border: none;
+}
+.btn-default:hover {
+    background-color: #219376;
+    color: white;
+}
+i.fa {
+    font-size: 37.5px;
+    color: #ddd7c4;
+    margin-right: 3px;
+    margin-top: -8px;
+}
+.button-link {
+    color: white;
+    text-decoration: none;
+}
+a.button-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* -----Footer----- */
+
+.footer-image {
+    background-image: url('image/footer.png');
+    height: 165px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.footer p {
+    text-align: center;
+    font-family: Verdana;
+    color: #8a6d51;
+    font-size: 12px;
+    margin-top: 45px;
+}
+#footer-bold {
+    font-size: 11px;
+    font-weight: 700;
+    color: #5d4239;
+}
+#footer-dizajn {
+    font-size: 11px;
+}
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/* ----- MEDIA QUERIES ----- */
+
+
+/* ---- medium desktops ---- */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .header-headline {
+        padding-left: 20rem;
+    }
+    p.intro {
+        width: 57rem;
+    }
+    .well,
+    .photo {
+        width: 204px;
+    }
+}
+
+/* ---- small devices ---- */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-default .navbar-nav>li>a {
+        font-size: 95.4%;
+    }
+    .header-headline {
+        padding-left: 19rem;
+    }
+    h1 {
+        font-size: 97.71%;
+    }
+    img.media-object {
+        height: 260px;
+    }
+    .media-body p {
+        width: 100%;
+        font-size: 96%;
+    }
+    p#intro {
+        width: 100%;
+        font-size: 96%;
+    }
+    .reference {
+        padding-left: 3%;
+    }
+    .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    .table>tfoot>tr>td,
+    .table>tfoot>tr>th,
+    .table>thead>tr>td,
+    .table>thead>tr>th {
+        padding-left: 3%;
+    }
+    h3 {
+        font-size: 98%;
+    }
+    #interships {
+        padding-left: 3%;
+    }
+    td:first-child {
+        width: 156px;
+        font-size: 98%;
+    }
+    td:last-child {
+        font-size: 96%;
+    }
+    #photo-mass {
+        height: auto;
+        width: 100%
+    }
+    .well,
+    .photo {
+        width: 204px;
+    }
+    h2 {
+        font-size: 97.71%;
+    }
+}
+@media screen and (min-width:480px) and (max-width:767px) {
+    .header-headline {
+        padding-left: 16rem;
+    }
+    ul.navbar-nav {
+        border-bottom: 0;
+    }
+    h1 {
+        font-size: 98%;
+    }
+    a>img.media-object {
+        display: none;
+    }
+    .media-body p {
+        width: 100%;
+        font-size: 96%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    p#intro {
+        width: 100%;
+        font-size: 96%;
+    }
+    .reference {
+        padding-left: 3%;
+    }
+    .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    .table>tfoot>tr>td,
+    .table>tfoot>tr>th,
+    .table>thead>tr>td,
+    .table>thead>tr>th {
+        padding-left: 3%;
+    }
+    h3 {
+        font-size: 98%;
+    }
+    #interships {
+        padding-left: 3%;
+    }
+    td:first-child {
+        font-size: 98%;
+    }
+    td:last-child {
+        font-size: 96%;
+    }
+    #photo-mass {
+        height: auto;
+        width: 100%
+    }
+    .well,
+    .photo {
+        width: 204px;
+    }
+    h2 {
+        font-size: 97.71%;
+    }
+}
+@media screen and (min-width:320px) and (max-width:479px) {
+    .logo {
+        margin-left: -3rem;
+        height: 70px;
+    }
+    .header-headline {
+        padding-left: 2rem;
+    }
+    h1 {
+        font-size: 98%;
+    }
+    a>img.media-object {
+        display: none;
+    }
+    .media-body p {
+        width: 100%;
+        font-size: 96%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    p#intro {
+        width: 100%;
+        font-size: 96%;
+    }
+    .reference {
+        padding-left: 3%;
+    }
+    .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    .table>tfoot>tr>td,
+    .table>tfoot>tr>th,
+    .table>thead>tr>td,
+    .table>thead>tr>th {
+        padding-left: 3%;
+    }
+    h3 {
+        font-size: 98%;
+    }
+    #interships {
+        padding-left: 3%;
+    }
+    td:first-child {
+        font-size: 97%;
+        width: 45%;
+    }
+    td:last-child {
+        font-size: 94%;
+    }
+    #photo-mass {
+        height: auto;
+        width: 100%;
+    }
+    .well,
+    .photo {
+        width: 220px;
+        margin-left: 2.9rem;
+    }
+    .social {
+        padding-left: 4.3rem;
+        margin-bottom: 18px;
+    }
+    .fa {
+        margin-left: 6px;
+    }
+}
